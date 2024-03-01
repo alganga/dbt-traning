@@ -1,1 +1,1 @@
-SELECT * FROM TEST_DB.PUBLIC.JSON_FINAL_DATA
+SELECT * FROM {{ ref('jsonfile') }}
