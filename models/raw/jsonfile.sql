@@ -1,1 +1,1 @@
-SELECT * FROM {{ ref('jsonfile') }}
+select * from sample_dbt
