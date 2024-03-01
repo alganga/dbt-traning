@@ -1,1 +1,5 @@
-select * from sample_dbt
+create table dbt
+(
+    id int,
+    name varchar(20)
+)
